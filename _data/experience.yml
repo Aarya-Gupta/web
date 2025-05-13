@@ -1,31 +1,45 @@
 # Jobs
 - company: "MIDAS: Multimodal Digital Media Analysis Lab IIITD"
-  position: Undergraduate Researcher
+  position: Computer Vision Intern
   duration: Aug, 2024 &mdash; Present
   # url: https://github.com/Aarya-Gupta/Autonomous-Driving-Systems
+  # <li>This project enhances traffic management and safety by analyzing live traffic videos using ML, DL, and LLMs and gathering crucial information to detect accidents in real-time.</li>
+  # <li>A fast and efficient pipeline is being built to handle the video data, ensuring timely and reliable accident detection.</li>
+  # <li>Analyzed MORTH data to identify accident conditions in India and scraping accident videos to curate a dataset based on government-defined factors.</li>
+    
   summary: >
     Key Responsibilities and Achievements Include:
     <ul class="resume-item-list">
-    <li>This project enhances traffic management and safety by analyzing live traffic videos using ML, DL, and LLMs and gathering crucial information to detect accidents in real-time.</li>
-    <li>A fast and efficient pipeline is being built to handle the video data, ensuring timely and reliable accident detection.</li>
-    <li>Analyzed MORTH data to identify accident conditions in India and scraped accident videos to curate a dataset based on government-defined factors.</li>
+    <li>Enhanced traffic safety through real-time accident detection, integrating ML, DL, and LLMs; analyzed 8+ years of MORTH reports for accident condition insights. </li>
+    <li>Performed 3+ comparative analyses of multimodal LLMs (Phi-3.5-Vision, Qwen2-VL) for accident detection across CCTV, drone, and dash cam videos. </li>
+    <li>Developed a custom tracking pipeline (Grounding DINO + SAM2) to track newly introduced objects, overcoming SAM2 limitations. </li>
+    <li>Tested pipelines on 1.5k+ videos, optimizing for GPU efficiency; transitioned from batch to stream processing for real-time video analysis. </li>
+    <li>Prepared comprehensive reports on accident predictions and pipeline challenges, presenting findings to lab mentors. </li>
+    <li>Currenlt exploring computer vision applications in self-driving cars through extensive research. </li>
     </ul>
 
 - company: "NETSEC: Network Security Lab IIITD"
-  position: Undergraduate Researcher
+  position: Cyber Security Intern
   duration: Aug, 2024 &mdash; Present
   # url: https://github.com/Aarya-Gupta/Autonomous-Driving-Systems
+  # <li>Investigating privacy implications of popular mobile apps in India, focusing on data collection practices and security vulnerabilities.</li>
+  # <li>Analyzing network traffic and APKs of apps to categorize collected data as necessary or unnecessary, identifying risks related to personally identifiable information (PII) leaks.</li>
+  # <li>Examined vulnerabilities in backend servers of apps using service scans and input validation checks, exposing potential breaches and non-compliance with Indian privacy regulations.</li>
+  # <li>Conducted static and dynamic analysis of app behaviors to assess adherence to privacy policies, uncovering extensive unnecessary data collection in several non-government apps.</li>
+
   summary: >
     Key Responsibilities and Achievements Include:
     <ul class="resume-item-list">
-    <li>Investigating privacy implications of popular mobile apps in India, focusing on data collection practices and security vulnerabilities.</li>
+    <li>Investigating privacy implications of popular mobile apps in India, focusing on data collection practices and security vulnerabilities. </li>
+    <li>Designing a privacy compliance framework leveraging NLP models to analyze app permission statements and detect inconsistencies/misalignments with DPDA Act 2023. </li>
     <li>Analyzing network traffic and APKs of apps to categorize collected data as necessary or unnecessary, identifying risks related to personally identifiable information (PII) leaks.</li>
-    <li>Examined vulnerabilities in backend servers of apps using service scans and input validation checks, exposing potential breaches and non-compliance with Indian privacy regulations.</li>
-    <li>Conducted static and dynamic analysis of app behaviors to assess adherence to privacy policies, uncovering extensive unnecessary data collection in several non-government apps.</li>
+    <li>Examined vulnerabilities in backend servers of apps using service scans and input validation checks, exposing potential breaches and non-compliance with Indian privacy regulations. </li>
+    <li>Conducted static and dynamic analysis of app behaviors to assess adherence to privacy policies, uncovering extensive unnecessary data collection in several non-government apps. </li>
+    <li>Developed dummy apps to bypass Play Integrity API checks utilizing Magisk and KernelSU bypass techniques. </li>
     </ul>
 
 - company: "NAS: Networked Autonomous Systems Lab IIITD"
-  position: Undergraduate Researcher
+  position: Data Science Intern
   duration: May, 2024 &mdash; Aug, 2024
   # url: https://github.com/Aarya-Gupta/Autonomous-Driving-Systems
   summary: >
