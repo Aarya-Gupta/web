@@ -2,6 +2,7 @@
   role: Sole Developer
   duration: May 2025 — Jun 2025
   url:
+    - "https://github.com/Aarya-Gupta/Trade_Simulator_OKX_L2"
     - "https://drive.google.com/file/d/1uJ7YDHvJJYFhZWY8yIlKKE9-aI25-Iyy/view?usp=drive_link"
   description: |
     <ul class="resume-item-list">
@@ -26,6 +27,7 @@
   duration: Jan 2025 — May 2025
   url:
     - "https://intelli-doc-frontend-sand.vercel.app/"
+    - "https://drive.google.com/file/d/1a99mZCePvQi5uQVv4xAuQkXeiCAx-GfK/view?usp=sharing"
   description: |
     <ul class="resume-item-list">
     <li>Built a full-stack AI web platform for uploading and interpreting medical reports and images (X-rays, MRIs), delivering real-time summaries, condition predictions, and specialist/medication recommendations.</li>
@@ -37,6 +39,7 @@
   role: Machine Learning Engineer
   duration: Jan 2025 — May 2025
   url:
+    - "https://github.com/Aarya-Gupta/SignTrack"
     - "https://drive.google.com/file/d/1QUmfXKohbqWLGZA5gxgZVxwKhTTTPkB8/view?usp=drive_link"
   description: |
     <ul class="resume-item-list">
@@ -55,6 +58,17 @@
     <li>Conducted functional and performance testing, resolving 10+ issues and boosting reliability by 50%.</li>
     </ul>
 
+- project: Facial Emotion Recognition
+  role: Founder & Primary Developer
+  duration: Jun 2024 — Present
+  url: "https://github.com/Aarya-Gupta/Facial-Emotion-Recognition"
+  description: |
+    <ul class="resume-item-list">
+    <li>Processed a 21k+ image dataset and implemented a deep convolutional neural network with ELU activations and He-normal initialization.</li>
+    <li>Optimized multiple convolutional layers and data augmentation techniques to classify seven distinct emotions.</li>
+    <li>Achieved 82.65% accuracy over 45 training epochs.</li>
+    </ul>
+
 - project: Stick Hero Game
   role: Lead Developer
   duration: Aug 2023 — Jul 2024
@@ -65,18 +79,6 @@
     <li>Designed UML and class diagrams; applied design patterns, OOP principles, and modular coding for extensibility.</li>
     <li>Built the UI in JavaFX/SceneBuilder and validated functionality with comprehensive JUnit testing.</li>
     </ul>
-
-# - project: Facial Emotion Recognition
-#   role: Developer
-#   duration: Jun 2024 — Present
-#   url: "https://github.com/Aarya-Gupta/Facial-Emotion-Recognition"
-#   description: |
-#     <ul class="resume-item-list">
-#     <li>Processed a 21k+ image dataset and implemented a deep convolutional neural network with ELU activations and He-normal initialization.</li>
-#     <li>Optimized multiple convolutional layers and data augmentation techniques to classify seven distinct emotions.</li>
-#     <li>Achieved 82.65% accuracy over 45 training epochs.</li>
-#     </ul>
-
 
 - project: Euphoria – A Well Being App
   role: Lead Developer
@@ -89,12 +91,12 @@
     </ul>
 
 
-# - project: Custom Assembler & Simulator [16-bit ISA]
-#   role: Systems Programmer
-#   duration: [Dates]
-#   url: "https://github.com/Aarya-Gupta/CO_Project"
-#   description: |
-#     <ul class="resume-item-list">
-#     <li>Developed an x86-to-machine-code assembler and automated test harness on Linux.</li>
-#     <li>Validated 15+ instruction test files to ensure correctness via a robust testing suite.</li>
-#     </ul>
+- project: Custom Assembler & Simulator [16-bit ISA]
+  role: Systems Programmer
+  duration: [Dates]
+  url: "https://github.com/Aarya-Gupta/CO_Project"
+  description: |
+    <ul class="resume-item-list">
+    <li>Developed an x86-to-machine-code assembler and automated test harness on Linux.</li>
+    <li>Validated 15+ instruction test files to ensure correctness via a robust testing suite.</li>
+    </ul>

@@ -2,7 +2,12 @@
 - company: "MIDAS: Multimodal Digital Media Analysis Lab IIITD"
   position: Computer Vision Intern
   duration: Aug, 2024 &mdash; Present
-    summary: >
+  # url: https://github.com/Aarya-Gupta/Autonomous-Driving-Systems
+  # <li>This project enhances traffic management and safety by analyzing live traffic videos using ML, DL, and LLMs and gathering crucial information to detect accidents in real-time.</li>
+  # <li>A fast and efficient pipeline is being built to handle the video data, ensuring timely and reliable accident detection.</li>
+  # <li>Analyzed MORTH data to identify accident conditions in India and scraping accident videos to curate a dataset based on government-defined factors.</li>
+    
+  summary: >
     Key Responsibilities and Achievements Include:
     <ul class="resume-item-list">
     <li><strong>Dataset Curation & Preprocessing:</strong> Reorganized and standardized a multimodal traffic-accident dataset of 5,691 videos (3,912 train, 1,054 val, 725 test) across CCTV, dashcam, and drone sources—downsampled to 15 fps, resized to 224×224, and structured into overlapping 16-frame clips to enable robust model training and evaluation.</li>
@@ -14,9 +19,7 @@
 - company: "NETSEC: Network Security Lab IIITD"
   position: Cyber Security Intern
   duration: Aug, 2024 &mdash; Present
-    summary: >
-    Key Responsibilities and Achievements Include:
-    <ul class="resume-item-list">
+  summary: >
     <li>Developed an end-to-end system to auto-evaluate mobile apps’ adherence to declared privacy policies by integrating device-integrity checks, stealthy root bypasses, real-time data capture, and AI-driven policy-vs-behavior analysis.</li>
     <li>Designed and built a dummy Android app leveraging the Google Play Integrity API to verify device tampering status.  </li>
     <li>Employed Magisk and KernelSU at the kernel level to stealthily bypass root-detection while keeping the device “pristine.”  </li>
