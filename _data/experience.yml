@@ -20,6 +20,7 @@
   position: Cyber Security Intern
   duration: Aug, 2024 &mdash; Present
   summary: >
+    Key Responsibilities and Achievements Include:
     <li>Developed an end-to-end system to auto-evaluate mobile apps’ adherence to declared privacy policies by integrating device-integrity checks, stealthy root bypasses, real-time data capture, and AI-driven policy-vs-behavior analysis.</li>
     <li>Designed and built a dummy Android app leveraging the Google Play Integrity API to verify device tampering status.  </li>
     <li>Employed Magisk and KernelSU at the kernel level to stealthily bypass root-detection while keeping the device “pristine.”  </li>

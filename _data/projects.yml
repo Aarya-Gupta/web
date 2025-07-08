@@ -47,6 +47,17 @@
     <li>Developed a Flask backend and React frontend with drag-and-drop uploads for real-time detection; containerized with Docker and automated CI/CD via GitHub Actions.</li>
     </ul>
 
+- project: Stick Hero Game
+  role: Lead Developer
+  duration: Aug 2023 — Jul 2024
+  url: "https://github.com/Aarya-Gupta/Stick_Hero_Game"
+  description: |
+    <ul class="resume-item-list">
+    <li>Developed a Java-based action platformer with five screens, featuring rewards collection, revive/pause, and save/load via serialization.</li>
+    <li>Designed UML and class diagrams; applied design patterns, OOP principles, and modular coding for extensibility.</li>
+    <li>Built the UI in JavaFX/SceneBuilder and validated functionality with comprehensive JUnit testing.</li>
+    </ul>
+
 - project: Baazaar – E-Commerce Website
   role: Solo Developer
   duration: Aug 2024 — Dec 2024
@@ -58,27 +69,16 @@
     <li>Conducted functional and performance testing, resolving 10+ issues and boosting reliability by 50%.</li>
     </ul>
 
-- project: Facial Emotion Recognition
-  role: Founder & Primary Developer
-  duration: Jun 2024 — Present
-  url: "https://github.com/Aarya-Gupta/Facial-Emotion-Recognition"
-  description: |
-    <ul class="resume-item-list">
-    <li>Processed a 21k+ image dataset and implemented a deep convolutional neural network with ELU activations and He-normal initialization.</li>
-    <li>Optimized multiple convolutional layers and data augmentation techniques to classify seven distinct emotions.</li>
-    <li>Achieved 82.65% accuracy over 45 training epochs.</li>
-    </ul>
-
-- project: Stick Hero Game
-  role: Lead Developer
-  duration: Aug 2023 — Jul 2024
-  url: "https://github.com/Aarya-Gupta/Stick_Hero_Game"
-  description: |
-    <ul class="resume-item-list">
-    <li>Developed a Java-based action platformer with five screens, featuring rewards collection, revive/pause, and save/load via serialization.</li>
-    <li>Designed UML and class diagrams; applied design patterns, OOP principles, and modular coding for extensibility.</li>
-    <li>Built the UI in JavaFX/SceneBuilder and validated functionality with comprehensive JUnit testing.</li>
-    </ul>
+# - project: Facial Emotion Recognition
+#   role: Founder & Primary Developer
+#   duration: Jun 2024 — Present
+#   url: "https://github.com/Aarya-Gupta/Facial-Emotion-Recognition"
+#   description: |
+#     <ul class="resume-item-list">
+#     <li>Processed a 21k+ image dataset and implemented a deep convolutional neural network with ELU activations and He-normal initialization.</li>
+#     <li>Optimized multiple convolutional layers and data augmentation techniques to classify seven distinct emotions.</li>
+#     <li>Achieved 82.65% accuracy over 45 training epochs.</li>
+#     </ul>
 
 - project: Euphoria – A Well Being App
   role: Lead Developer
@@ -91,12 +91,12 @@
     </ul>
 
 
-- project: Custom Assembler & Simulator [16-bit ISA]
-  role: Systems Programmer
-  duration: [Dates]
-  url: "https://github.com/Aarya-Gupta/CO_Project"
-  description: |
-    <ul class="resume-item-list">
-    <li>Developed an x86-to-machine-code assembler and automated test harness on Linux.</li>
-    <li>Validated 15+ instruction test files to ensure correctness via a robust testing suite.</li>
-    </ul>
+# - project: Custom Assembler & Simulator [16-bit ISA]
+#   role: Systems Programmer
+#   duration: [Dates]
+#   url: "https://github.com/Aarya-Gupta/CO_Project"
+#   description: |
+#     <ul class="resume-item-list">
+#     <li>Developed an x86-to-machine-code assembler and automated test harness on Linux.</li>
+#     <li>Validated 15+ instruction test files to ensure correctness via a robust testing suite.</li>
+#     </ul>
