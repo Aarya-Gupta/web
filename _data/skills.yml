@@ -1,12 +1,11 @@
 # Skills
 # Organizational leadership
 - skill: Expertise Area
-  description: Object Oriented Programming, Data Structures and Algorithms,  CP, Machine Learning
+  description: Data Structures and Algorithms, Object Oriented Programming, Competitive Programming, Deep Learning (NLP, CV)
 
 # Communications strategy
 - skill: TechStack
-  description: C/C++, Java, Python, JavaScript, Matlab, Git/Github, Numpy, Pandas, PyTorch, TensorFlow, Scikit-learn, Linux (KDE, Kali), Matplotlib, HTML, CSS, Network Programming, Jupyter Notebook, SceneBuilder, Figma, Miro, LaTeX, IntelliJ, Microsoft VSCode, JavaFX, MySQL, OSINT, Shell Scripting   
-
+  description: Python, Java, C/C++, MySQL, Javascript, MATLAB, Git/GitHub, Linux, VS Code, Cursor, IntelliJ IDEA, Android Studio, Google Colab, Kaggle, HTML/CSS, MySQL, Python Libraries (NumPy, Pandas, Matplotlib, Scikit‑learn, PyTorch, TensorFlow, OpenCV), Hugging Face, AI Agents, Retrieval‑Augmented Generation (RAG), CARLA Simulator, Figma, LaTeX, Wireshark
 # Digital content development and creation
 - skill: Soft Skills
   description:  Effective Communication, Adaptability and Teamwork
