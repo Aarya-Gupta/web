@@ -23,7 +23,7 @@
     <li>Hooked into running apps with Frida to intercept and log all network traffic (HTTP/S and other protocols) without triggering any alerts. </li> 
     <li>Parsed intercepted payloads—device IDs, location data, messages, contacts—and securely logged metadata for forensic analysis.  </li>
     <li>Integrated a large language model to compare each app’s declared privacy policy against actual transmission logs, automatically flagging undocumented data leaks.  </li>
-    <li>Orchestrated a fully automated pipeline for bulk-analysis: from integrity checks and root bypass to dynamic instrumentation and AI-powered compliance reporting.  </li>
+    <li>Orchestrated a fully automated pipeline for bulk-analysis; from integrity checks and root bypass to dynamic instrumentation and AI-powered compliance reporting.  </li>
     <li>Delivered a scalable, repeatable framework that not only bypasses Play Integrity checks undetected but also generates detailed compliance reports—categorizing apps as compliant, partially compliant, or non-compliant—to empower developers, regulators, and privacy advocates.</li>
   
 
