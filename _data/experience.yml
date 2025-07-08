@@ -14,7 +14,7 @@
 - company: "NETSEC: Network Security Lab IIITD"
   position: Cyber Security Intern
   duration: Aug, 2024 &mdash; Present
-  summary: >
+    summary: >
     Key Responsibilities and Achievements Include:
     <ul class="resume-item-list">
     <li>Developed an end-to-end system to auto-evaluate mobile apps’ adherence to declared privacy policies by integrating device-integrity checks, stealthy root bypasses, real-time data capture, and AI-driven policy-vs-behavior analysis.</li>
