@@ -1,24 +1,102 @@
-# Projects
-# uncomment the urls if you wish to display them, and add your own URL
+- project: High-Performance Trade Simulator
+  role: Sole Developer
+  duration: May 2025 — Jun 2025
+  url:
+    - "https://github.com/Aarya-Gupta/Trade_Simulator_OKX_L2"
+    - "https://drive.google.com/file/d/1uJ7YDHvJJYFhZWY8yIlKKE9-aI25-Iyy/view?usp=drive_link"
+  description: |
+    <ul class="resume-item-list">
+    <li>Built a Python L2 order-book simulator for OKX, ingesting live WebSocket ticks (~10 Hz) and driving a multithreaded Tkinter UI with sub-10 ms per-tick latency.</li>
+    <li>Modeled transaction costs via slippage regression on 100k+ synthetic samples (Test R² > 0.6), rule-based fees, and a simplified Almgren–Chriss impact model.</li>
+    <li>Engineered a multithreaded architecture, logging and visualizing model performance metrics (MSE, R²) to guide iterative refinements.</li>
+    </ul>
 
-# jazznotes.io
+- project: PerSpectraMed – Perspective-Aware Summarization for Healthcare QA
+  role: Research Engineer
+  duration: Jan 2025 — May 2025
+  url: "https://drive.google.com/file/d/1hoW_Ro-BZB8WmOyv5VNFaR55v-EKg5US/view?usp=drive_link"
+  description: |
+    <ul class="resume-item-list">
+    <li>Implemented a multi-perspective QA summarization pipeline by fine-tuning Gemma2 via LoRA with a custom span-prediction head on the PUMA CQA dataset.</li>
+    <li>Benchmarked against Gemini 2.0 Flash, Gemini 3 27B, PLASMA, and other baselines, achieving superior ROUGE-L and BERTScore.</li>
+    <li>Built a reproducible evaluation suite computing ROUGE, BLEU, METEOR, and BERTScore to quantify factuality and compression gains.</li>
+    </ul>
+
+- project: IntelliDoc – AI-Powered Health Report Interpreter
+  role: Full-Stack Developer
+  duration: Jan 2025 — May 2025
+  url:
+    - "https://intelli-doc-frontend-sand.vercel.app/"
+    - "https://drive.google.com/file/d/1a99mZCePvQi5uQVv4xAuQkXeiCAx-GfK/view?usp=sharing"
+  description: |
+    <ul class="resume-item-list">
+    <li>Built a full-stack AI web platform for uploading and interpreting medical reports and images (X-rays, MRIs), delivering real-time summaries, condition predictions, and specialist/medication recommendations.</li>
+    <li>Included a layman-friendly medical chatbot backed by Node.js, MongoDB, Flask, and TensorFlow.</li>
+    <li>Architected a freemium B2C SaaS backend and ReactJS/Tailwind CSS frontend with JWT/OAuth2 security and Cloudinary/Multer/OpenCV media handling.</li>
+    </ul>
+
+- project: SignTrack – Real-Time Traffic Sign Detection using YOLOv8
+  role: Machine Learning Engineer
+  duration: Jan 2025 — May 2025
+  url:
+    - "https://github.com/Aarya-Gupta/SignTrack"
+    - "https://drive.google.com/file/d/1QUmfXKohbqWLGZA5gxgZVxwKhTTTPkB8/view?usp=drive_link"
+  description: |
+    <ul class="resume-item-list">
+    <li>Fine-tuned YOLOv8 on 4.9k+ traffic sign images (15 classes), achieving 95.7% mAP@0.5, 94.2% precision, and 2.4 ms inference latency per image.</li>
+    <li>Developed a Flask backend and React frontend with drag-and-drop uploads for real-time detection; containerized with Docker and automated CI/CD via GitHub Actions.</li>
+    </ul>
+
+- project: Baazaar – E-Commerce Website
+  role: Solo Developer
+  duration: Aug 2024 — Dec 2024
+  url: "https://github.com/Aarya-Gupta/baazaar"
+  description: |
+    <ul class="resume-item-list">
+    <li>Crafted a responsive e-commerce platform with HTML, CSS, Node.js, and MySQL supporting 10 concurrent users in stress tests.</li>
+    <li>Implemented user registration, login (5 req/sec), shopping cart, and order history modules.</li>
+    <li>Conducted functional and performance testing, resolving 10+ issues and boosting reliability by 50%.</li>
+    </ul>
+
 - project: Facial Emotion Recognition
-  # role: Founder & Primary Developer
-  duration: Jun 24 &mdash; Present
+  role: Founder & Primary Developer
+  duration: Jun 2024 — Present
   url: "https://github.com/Aarya-Gupta/Facial-Emotion-Recognition"
-  description: <ul class="resume-item-list"><li>Processed a large dataset of facial images and implemented DCNN with ELU activation. Optimized model with multiple convolution layers and classified emotions into 7 distinct categories.</li><li>Achieved an accuracy of 82.65% in classifying facial emotions trained over 45 epochs.</li>
+  description: |
+    <ul class="resume-item-list">
+    <li>Processed a 21k+ image dataset and implemented a deep convolutional neural network with ELU activations and He-normal initialization.</li>
+    <li>Optimized multiple convolutional layers and data augmentation techniques to classify seven distinct emotions.</li>
+    <li>Achieved 82.65% accuracy over 45 training epochs.</li>
+    </ul>
 
-
-# Springfield Community Outreach Group
 - project: Stick Hero Game
-  # role: Lead Developer
-  duration: Aug 23 &mdash; Dec 23
+  role: Lead Developer
+  duration: Aug 2023 — Jul 2024
   url: "https://github.com/Aarya-Gupta/Stick_Hero_Game"
-  description: <ul class="resume-item-list"><li> Created an action platformer game in Java, with additional features such as collecting reward, reviving, pausing, saving, and loading games using serialization.</li><li>Designed UML and Class Diagrams before writing any code. Applied various Design Patterns and followed OOPS Principles and Modular Coding. </li> <li> Integrated front-end and back-end elements seamlessly using SceneBuilder and JavaFX, ensuring functionality validation through comprehensive JUnit testing.</li>
+  description: |
+    <ul class="resume-item-list">
+    <li>Developed a Java-based action platformer with five screens, featuring rewards collection, revive/pause, and save/load via serialization.</li>
+    <li>Designed UML and class diagrams; applied design patterns, OOP principles, and modular coding for extensibility.</li>
+    <li>Built the UI in JavaFX/SceneBuilder and validated functionality with comprehensive JUnit testing.</li>
+    </ul>
 
-# Springfield Community Outreach Group
-- project: Euphoria - A Well Being App
-  # role: Lead Developer
-  duration: Nov 22 &mdash; Feb 23
+- project: Euphoria – A Well Being App
+  role: Lead Developer
+  duration: Nov 2022 — Feb 2023
   url: "https://drive.google.com/drive/folders/16KsEejnqzO8SOj4kNuS980efhPpNJ1Yq?usp=drive_link"
-  description: <ul class="resume-item-list"><li>Conceived a prototype of an app to foster connections between people struggling with mental health disorders and the resources, communities, tools needed to overcome them. </li><li> Created UI prototypes using Figma and Miro, led UX Research to enhance user experiences, integrating personas, empathy mapping, lo-fi and hi-fi prototypes.</li>
+  description: |
+    <ul class="resume-item-list">
+    <li>Conceived and prototyped an app to connect individuals facing mental health challenges with resources, communities, and tools.</li>
+    <li>Led UX research: crafted personas, empathy maps, and developed lo-fi and hi-fi prototypes using Figma and Miro.</li>
+    </ul>
+
+
+- project: Custom Assembler & Simulator [16-bit ISA]
+  role: Systems Programmer
+  duration: [Dates]
+  url: "https://github.com/Aarya-Gupta/CO_Project"
+  description: |
+    <ul class="resume-item-list">
+    <li>Developed an x86-to-machine-code assembler and automated test harness on Linux.</li>
+    <li>Validated 15+ instruction test files to ensure correctness via a robust testing suite.</li>
+    </ul>

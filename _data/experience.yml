@@ -10,33 +10,25 @@
   summary: >
     Key Responsibilities and Achievements Include:
     <ul class="resume-item-list">
-    <li>Enhanced traffic safety through real-time accident detection, integrating ML, DL, and LLMs; analyzed 8+ years of MORTH reports for accident condition insights. </li>
-    <li>Performed 3+ comparative analyses of multimodal LLMs (Phi-3.5-Vision, Qwen2-VL) for accident detection across CCTV, drone, and dash cam videos. </li>
-    <li>Developed a custom tracking pipeline (Grounding DINO + SAM2) to track newly introduced objects, overcoming SAM2 limitations. </li>
-    <li>Tested pipelines on 1.5k+ videos, optimizing for GPU efficiency; transitioned from batch to stream processing for real-time video analysis. </li>
-    <li>Prepared comprehensive reports on accident predictions and pipeline challenges, presenting findings to lab mentors. </li>
-    <li>Currenlt exploring computer vision applications in self-driving cars through extensive research. </li>
+    <li><strong>Dataset Curation & Preprocessing:</strong> Reorganized and standardized a multimodal traffic-accident dataset of 5,691 videos (3,912 train, 1,054 val, 725 test) across CCTV, dashcam, and drone sources—downsampled to 15 fps, resized to 224×224, and structured into overlapping 16-frame clips to enable robust model training and evaluation.</li>
+    <li><strong>Dynamic Vehicle Tracking Pipeline:</strong> Engineered a hybrid YOLO/DINO + SAM2 segmentation pipeline that dynamically detects and adds newly introduced vehicles into the tracker, propagating masks across subsequent frames via a custom “SAM-2 Alpha” propagation step—validated over thousands of frames for continuous, robust tracking in live traffic streams.</li>
+    <li><strong>Real-Time Stream Processing & LLM Verification:</strong> Developed a near real-time pipeline processing incoming video in 100-frame (10 s at 10 fps) windows—masking vehicles via CV+SAM2, flagging critical frames by bounding-box overlap, and querying a fine-tuned multimodal LLM—achieving &gt; 90 % video-level accident classification accuracy.</li>
+    <li><strong>Advanced Fusion & Temporal Modeling (Evaluation):</strong> Integrated contrastive-trained attention fusion across RGB, segmentation, and depth tokens with a Transformer+GRU temporal head, delivering strong frame-level Average Precision and low Mean Time to Anticipation (mTTA) across benchmarks such as DAD, CCD, A3D, and DADA-2000.</li>
     </ul>
 
 - company: "NETSEC: Network Security Lab IIITD"
   position: Cyber Security Intern
   duration: Aug, 2024 &mdash; Present
-  # url: https://github.com/Aarya-Gupta/Autonomous-Driving-Systems
-  # <li>Investigating privacy implications of popular mobile apps in India, focusing on data collection practices and security vulnerabilities.</li>
-  # <li>Analyzing network traffic and APKs of apps to categorize collected data as necessary or unnecessary, identifying risks related to personally identifiable information (PII) leaks.</li>
-  # <li>Examined vulnerabilities in backend servers of apps using service scans and input validation checks, exposing potential breaches and non-compliance with Indian privacy regulations.</li>
-  # <li>Conducted static and dynamic analysis of app behaviors to assess adherence to privacy policies, uncovering extensive unnecessary data collection in several non-government apps.</li>
-
   summary: >
-    Key Responsibilities and Achievements Include:
-    <ul class="resume-item-list">
-    <li>Investigating privacy implications of popular mobile apps in India, focusing on data collection practices and security vulnerabilities. </li>
-    <li>Designing a privacy compliance framework leveraging NLP models to analyze app permission statements and detect inconsistencies/misalignments with DPDA Act 2023. </li>
-    <li>Analyzing network traffic and APKs of apps to categorize collected data as necessary or unnecessary, identifying risks related to personally identifiable information (PII) leaks.</li>
-    <li>Examined vulnerabilities in backend servers of apps using service scans and input validation checks, exposing potential breaches and non-compliance with Indian privacy regulations. </li>
-    <li>Conducted static and dynamic analysis of app behaviors to assess adherence to privacy policies, uncovering extensive unnecessary data collection in several non-government apps. </li>
-    <li>Developed dummy apps to bypass Play Integrity API checks utilizing Magisk and KernelSU bypass techniques. </li>
-    </ul>
+    <li>Developed an end-to-end system to auto-evaluate mobile apps’ adherence to declared privacy policies by integrating device-integrity checks, stealthy root bypasses, real-time data capture, and AI-driven policy-vs-behavior analysis.</li>
+    <li>Designed and built a dummy Android app leveraging the Google Play Integrity API to verify device tampering status.  </li>
+    <li>Employed Magisk and KernelSU at the kernel level to stealthily bypass root-detection while keeping the device “pristine.”  </li>
+    <li>Hooked into running apps with Frida to intercept and log all network traffic (HTTP/S and other protocols) without triggering any alerts. </li> 
+    <li>Parsed intercepted payloads—device IDs, location data, messages, contacts—and securely logged metadata for forensic analysis.  </li>
+    <li>Integrated a large language model to compare each app’s declared privacy policy against actual transmission logs, automatically flagging undocumented data leaks.  </li>
+    <li>Orchestrated a fully automated pipeline for bulk-analysis: from integrity checks and root bypass to dynamic instrumentation and AI-powered compliance reporting.  </li>
+    <li>Delivered a scalable, repeatable framework that not only bypasses Play Integrity checks undetected but also generates detailed compliance reports—categorizing apps as compliant, partially compliant, or non-compliant—to empower developers, regulators, and privacy advocates.</li>
+  
 
 - company: "NAS: Networked Autonomous Systems Lab IIITD"
   position: Data Science Intern
